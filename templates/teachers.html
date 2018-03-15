@@ -7,7 +7,7 @@
 <body>
 {% for teacher in teachers %}
     <h2>{{ teacher.teacher_firstname }}</h2>
-    <h2>{{ teacher.teacher_lastname}}</h2>
+    <h2><a href="{{students}}">{{ teacher.teacher_lastname}}</a></h2>
     <h4>{{ teacher.teacher_age }}</h4>
     <h4>{{ teacher.teacher_subject }}</h4>
     <hr>

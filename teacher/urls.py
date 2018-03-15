@@ -10,5 +10,5 @@ urlpatterns = [
     path('3/', views.template_three_simple, name='template_three_simple'),
     path('all/', views.teachers, name='teachers'),
     path('all2/', views.students, name='students'),
-]
+	path('stud/',views.students, name='stud')
 #url(r'^articles/get/(?P<article_id>\d+)$', views.article, name='article'),

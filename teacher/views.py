@@ -25,3 +25,5 @@ def teachers(request):
 
 def students(request):
     return render_to_response('studentts.html', {'students': Students.objects.all()})
+	
+
